@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import arrow from "../src/assets/images/icon-arrow.svg"
 
 function App() {
   const [day, setDay] = useState("");
@@ -133,7 +134,7 @@ function App() {
               className="text-4xl text-white rounded-full bg-[#844dff] p-4 cursor-pointer hover:bg-black duration-300 active:scale-95 scale-90 lg:scale-100"
             >
               <img
-                src="./src/assets/images/icon-arrow.svg"
+                src={arrow}
                 alt="ARROW"
                 className="scale-75"
               />
